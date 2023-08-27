@@ -1,0 +1,10 @@
+package com.api.assignment.crud.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.api.assignment.crud.entities.Customer;
+
+public interface CustomerRepository extends JpaRepository<Customer,Integer>{
+    
+    
+}
